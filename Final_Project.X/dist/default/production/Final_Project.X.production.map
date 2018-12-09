@@ -1,0 +1,1997 @@
+Microchip MPLAB XC8 Compiler V2.00 ()
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.00\pic\dat\en_msgs.txt \
+  -cs -h+dist/default/production\Final_Project.X.production.sym \
+  --cmf=dist/default/production\Final_Project.X.production.cmf -z -Q18F4331 \
+  -oC:\Users\ua114\AppData\Local\Temp\s1d0c.2 \
+  -Mdist/default/production/Final_Project.X.production.map -E1 -ver=XC8 \
+  --acfsm=1493 -ASTACK=0FDh-02ffh -pstack=STACK -ACODE=00h-01FFFh \
+  -ACONST=00h-01FFFh -ASMALLCONST=0300h-03FFhx29 -AMEDIUMCONST=0300h-01FFFh \
+  -ACOMRAM=01h-05Fh -AABS1=00h-02FFh -ABIGRAM=01h-02FFh \
+  -ARAM=060h-0FFh,0100h-01FFhx2 -ABANK0=060h-0FFh -ABANK1=0100h-01FFh \
+  -ABANK2=0200h-02FFh -ASFR=0F60h-0FFFh \
+  -preset_vec=00h,intcode=08h,intcodelo,powerup,init -pramtop=0300h \
+  -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST -pconst=CONST \
+  -AFARRAM=00h-00h -ACONFIG=0300000h-030000Dh -pconfig=CONFIG \
+  -AIDLOC=0200000h-0200007h -pidloc=IDLOC -AEEDATA=0F00000h-0F000FFh \
+  -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\ua114\AppData\Local\Temp\s1d0c.o \
+  dist/default/production\Final_Project.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 18F4331
+
+Call graph: (short form)
+
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\ua114\AppData\Local\Temp\s1d0c.o
+                init                                 94       94        4        4       0
+                reset_vec                             0        0        4        0       0
+                idloc                            200000   200000        8   200000       0
+                config                           300000   300000        E   300000       0
+dist/default/production\Final_Project.X.production.o
+                intcode                               8        8       8C        4       0
+                temp                                 3D       3D        1        1       1
+                smallconst                          300      300       38      180       0
+                text36                             147C     147C        8      19C       0
+                text35                             1464     1464        E      19C       0
+                text34                             1128     1128       4A      19C       0
+                text33                             1326     1326       28      19C       0
+                text32                              E94      E94       84      19C       0
+                text31                             139A     139A       26      19C       0
+                text30                              A84      A84      182      19C       0
+                text29                              F82      F82       6A      19C       0
+                text27                             10DE     10DE       4A      19C       0
+                text26                             143C     143C       1A      19C       0
+                text25                             13C0     13C0       22      19C       0
+                text24                             1472     1472        A      19C       0
+                text23                             1456     1456        E      19C       0
+                text22                             1094     1094       4A      19C       0
+                text21                             12FE     12FE       28      19C       0
+                text20                              D58      D58       B6      19C       0
+                text19                             11F8     11F8       30      19C       0
+                text18                             11B6     11B6       42      19C       0
+                text17                              FEC      FEC       56      19C       0
+                text16                             1228     1228       2E      19C       0
+                text15                              E0E      E0E       86      19C       0
+                text14                             1374     1374       26      19C       0
+                text13                              8F2      8F2      192      19C       0
+                text12                             12D4     12D4       2A      19C       0
+                text11                             141E     141E       1E      19C       0
+                text10                             1400     1400       1E      19C       0
+                text9                              13E2     13E2       1E      19C       0
+                text8                               F18      F18       6A      19C       0
+                text7                              12AA     12AA       2A      19C       0
+                text6                              1280     1280       2A      19C       0
+                text5                               338      338      356      19C       0
+                text4                              1256     1256       2A      19C       0
+                text3                              1042     1042       52      19C       0
+                text2                              1172     1172       44      19C       0
+                text1                               C06      C06      152      19C       0
+                text0                               68E      68E      264      19C       0
+                cstackCOMRAM                          1        1       2A        1       1
+                cstackBANK0                          C7       C7       36       60       1
+                bssBANK0                             60       60       67       60       1
+                bssCOMRAM                            2B       2B       12        1       1
+                cinit                              134E     134E       26      19C       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                intcode                               8        8       8C         0
+                init                                 94       94        4         0
+                reset_vec                             0        0        4         0
+                text36                             147C     147C        8         0
+                text35                             1464     1464        E         0
+                text34                             1128     1128       4A         0
+                text33                             1326     1326       28         0
+                text32                              E94      E94       84         0
+                text31                             139A     139A       26         0
+                text30                              A84      A84      182         0
+                text29                              F82      F82       6A         0
+                text27                             10DE     10DE       4A         0
+                text26                             143C     143C       1A         0
+                text25                             13C0     13C0       22         0
+                text24                             1472     1472        A         0
+                text23                             1456     1456        E         0
+                text22                             1094     1094       4A         0
+                text21                             12FE     12FE       28         0
+                text20                              D58      D58       B6         0
+                text19                             11F8     11F8       30         0
+                text18                             11B6     11B6       42         0
+                text17                              FEC      FEC       56         0
+                text16                             1228     1228       2E         0
+                text15                              E0E      E0E       86         0
+                text14                             1374     1374       26         0
+                text13                              8F2      8F2      192         0
+                text12                             12D4     12D4       2A         0
+                text11                             141E     141E       1E         0
+                text10                             1400     1400       1E         0
+                text9                              13E2     13E2       1E         0
+                text8                               F18      F18       6A         0
+                text7                              12AA     12AA       2A         0
+                text6                              1280     1280       2A         0
+                text5                               338      338      356         0
+                text4                              1256     1256       2A         0
+                text3                              1042     1042       52         0
+                text2                              1172     1172       44         0
+                text1                               C06      C06      152         0
+                text0                               68E      68E      264         0
+                cinit                              134E     134E       26         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+                smallconst                          300      300       38         0
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                temp                                 3D       3D        1         1
+                cstackCOMRAM                          1        1       2A         1
+                bssCOMRAM                            2B       2B       12         1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+                cstackBANK0                          C7       C7       36         1
+                bssBANK0                             60       60       67         1
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   SFR            
+
+        CLASS   FARRAM         
+
+        CLASS   CONFIG         
+                config                           300000   300000        E         0
+
+        CLASS   IDLOC          
+                idloc                            200000   200000        8         0
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                cstackCOMRAM                   000001  00003D  00003E         1       1  COMRAM  
+                intcode                        000008  000090  000098         4       0  CODE    
+                bssBANK0                       000060  00009D  0000FD        60       1  BANK0   
+                smallconst                     000300  000038  000338       180       0  SMALLCON
+                text5                          000338  00114C  001484       19C       0  CODE    
+                idloc                          200000  000008  200008    200000       0  IDLOC   
+                config                         300000  00000E  30000E    300000       0  CONFIG  
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0000FD-0000FF                3
+        BANK1            000100-0001FF              100
+        BANK2            000200-0002FF              100
+        BIGRAM           00003E-00005F               22
+                         0000FD-0002FF              203
+        CODE             000004-000007                4
+                         000098-0002FF              268
+                         001484-001FFF              B7C
+        COMRAM           00003E-00005F               22
+        CONST            000004-000007                4
+                         000098-0002FF              268
+                         001484-001FFF              B7C
+        EEDATA           F00000-F000FF              100
+        MEDIUMCONST      001484-001FFF              B7C
+        RAM              0000FD-0002FF              100
+        SFR              000F60-000FFF               A0
+        SMALLCONST       001484-001FFF              100
+        STACK            0000FD-0002FF              203
+
+                                  Symbol Table
+
+?___awdiv                         cstackBANK0  0000C7
+?___lwdiv                         cstackCOMRAM 000023
+?___lwmod                         cstackBANK0  0000C7
+?___wmul                          cstackCOMRAM 000023
+?_sprintf                         cstackBANK0  0000CB
+?i2___awdiv                       cstackCOMRAM 000007
+?i2___wmul                        cstackCOMRAM 000001
+FindIR@L_IR                       cstackCOMRAM 000023
+FindIR@R_IR                       cstackCOMRAM 000025
+InterruptHandlerHigh@readIn       cstackCOMRAM 000022
+InterruptHandlerHigh@read_counter cstackCOMRAM 000020
+LCD_String@string                 cstackCOMRAM 000029
+LCDout@number                     cstackCOMRAM 000026
+Motor_Init@PWMcycle               cstackCOMRAM 000025
+SendLCD@Byte                      cstackCOMRAM 000028
+SendLCD@type                      cstackCOMRAM 000027
+SetLine@line                      cstackCOMRAM 000029
+TrackIR@LeftIR                    cstackBANK0  0000DA
+TrackIR@RightIR                   cstackBANK0  0000DC
+TrackIR@limit                     cstackBANK0  0000E1
+_ANSEL0                           (abs)        000FB8
+_ANSEL1                           (abs)        000FB9
+_BAUDCONbits                      (abs)        000FAA
+_CAP1BUFH                         (abs)        000F69
+_CAP1BUFL                         (abs)        000F68
+_CAP1CON                          (abs)        000F63
+_CAP2BUFH                         (abs)        000F67
+_CAP2BUFL                         (abs)        000F66
+_CAP2CON                          (abs)        000F62
+_DFLTCON                          (abs)        000F60
+_E_TOG                            text23       001456
+_FindIR                           text27       0010DE
+_INTCONbits                       (abs)        000FF2
+_IR_Init                          text26       00143C
+_Init                             text25       0013C0
+_InterruptHandlerHigh             intcode      000008
+_InterruptINIT                    text24       001472
+_LATA                             (abs)        000F89
+_LATAbits                         (abs)        000F89
+_LATB                             (abs)        000F8A
+_LATC                             (abs)        000F8B
+_LATCbits                         (abs)        000F8B
+_LATD                             (abs)        000F8C
+_LCD_Init                         text20       000D58
+_LCD_String                       text19       0011F8
+_LCDout                           text22       001094
+_Motor_Init                       text17       000FEC
+_OSCCON                           (abs)        000FD3
+_OSCCONbits                       (abs)        000FD3
+_PDC0H                            (abs)        000F78
+_PDC0L                            (abs)        000F79
+_PDC1H                            (abs)        000F76
+_PDC1L                            (abs)        000F77
+_PIE1bits                         (abs)        000F9D
+_PIR1bits                         (abs)        000F9E
+_PORTCbits                        (abs)        000F82
+_PTCON0                           (abs)        000F7F
+_PTCON1                           (abs)        000F7E
+_PTPERH                           (abs)        000F7A
+_PTPERL                           (abs)        000F7B
+_PWMCON0                          (abs)        000F6F
+_PWMCON1                          (abs)        000F6E
+_RCONbits                         (abs)        000FD0
+_RCREG                            (abs)        000FAE
+_RCSTAbits                        (abs)        000FAB
+_SPBRG                            (abs)        000FAF
+_SPBRGH                           (abs)        000FB0
+_SendLCD                          text21       0012FE
+_SetLine                          text16       001228
+_T5CON                            (abs)        000FB7
+_TRISA                            (abs)        000F92
+_TRISBbits                        (abs)        000F93
+_TRISC                            (abs)        000F94
+_TRISCbits                        (abs)        000F94
+_TRISD                            (abs)        000F95
+_TXSTAbits                        (abs)        000FAC
+_TrackIR                          text5        000338
+__CFG_LVP$OFF                     (abs)        000000
+__CFG_MCLRE$OFF                   (abs)        000000
+__CFG_OSC$IRCIO                   (abs)        000000
+__HRAM                            (abs)        000000
+__Habs1                           abs1         000000
+__Hbank0                          bank0        000000
+__Hbank1                          bank1        000000
+__Hbank2                          bank2        000000
+__Hbigbss                         bigbss       000000
+__Hbigdata                        bigdata      000000
+__Hbigram                         bigram       000000
+__Hbss                            bss          000000
+__HbssBANK0                       bssBANK0     000000
+__HbssCOMRAM                      bssCOMRAM    000000
+__Hcinit                          cinit        000000
+__Hclrtext                        clrtext      000000
+__Hcomram                         comram       000000
+__Hconfig                         config       30000E
+__Hconst                          const        000000
+__HcstackBANK0                    cstackBANK0  000000
+__HcstackCOMRAM                   cstackCOMRAM 000000
+__Hdata                           data         000000
+__Heeprom_data                    eeprom_data  000000
+__Hfarbss                         farbss       000000
+__Hfardata                        fardata      000000
+__Hibigdata                       ibigdata     000000
+__Hidata                          idata        000000
+__Hidloc                          idloc        200008
+__Hifardata                       ifardata     000000
+__Hinit                           init         000098
+__Hintcode                        intcode      000094
+__Hintcode_body                   intcode_body 000000
+__Hintcodelo                      intcodelo    000094
+__Hintentry                       intentry     000000
+__Hintret                         intret       000000
+__Hintsave_regs                   intsave_regs 000000
+__Hirdata                         irdata       000000
+__Hmediumconst                    mediumconst  000000
+__HnvFARRAM                       nvFARRAM     000000
+__Hnvbit                          nvbit        000000
+__Hnvrram                         nvrram       000000
+__Hparam                          rparam       000000
+__Hpowerup                        powerup      000094
+__Hram                            ram          000000
+__Hramtop                         ramtop       000300
+__Hrbit                           rbit         000000
+__Hrbss                           rbss         000000
+__Hrdata                          rdata        000000
+__Hreset_vec                      reset_vec    000004
+__Hrparam                         rparam       000000
+__Hsfr                            sfr          000000
+__Hsmallconst                     smallconst   000338
+__Hspace_0                        (abs)        30000E
+__Hspace_1                        (abs)        0000FD
+__Hspace_2                        (abs)        000000
+__Hstack                          stack        000000
+__Hstruct                         struct       000000
+__Htemp                           temp         00003E
+__Htext                           text         000000
+__Htext0                          text0        000000
+__Htext1                          text1        000000
+__Htext10                         text10       000000
+__Htext11                         text11       000000
+__Htext12                         text12       000000
+__Htext13                         text13       000000
+__Htext14                         text14       000000
+__Htext15                         text15       000000
+__Htext16                         text16       000000
+__Htext17                         text17       000000
+__Htext18                         text18       000000
+__Htext19                         text19       000000
+__Htext2                          text2        000000
+__Htext20                         text20       000000
+__Htext21                         text21       000000
+__Htext22                         text22       000000
+__Htext23                         text23       000000
+__Htext24                         text24       000000
+__Htext25                         text25       000000
+__Htext26                         text26       000000
+__Htext27                         text27       000000
+__Htext29                         text29       000000
+__Htext3                          text3        000000
+__Htext30                         text30       000000
+__Htext31                         text31       000000
+__Htext32                         text32       000000
+__Htext33                         text33       000000
+__Htext34                         text34       000000
+__Htext35                         text35       000000
+__Htext36                         text36       000000
+__Htext4                          text4        000000
+__Htext5                          text5        000000
+__Htext6                          text6        000000
+__Htext7                          text7        000000
+__Htext8                          text8        000000
+__Htext9                          text9        000000
+__LRAM                            (abs)        000001
+__Labs1                           abs1         000000
+__Lbank0                          bank0        000000
+__Lbank1                          bank1        000000
+__Lbank2                          bank2        000000
+__Lbigbss                         bigbss       000000
+__Lbigdata                        bigdata      000000
+__Lbigram                         bigram       000000
+__Lbss                            bss          000000
+__LbssBANK0                       bssBANK0     000000
+__LbssCOMRAM                      bssCOMRAM    000000
+__Lcinit                          cinit        000000
+__Lclrtext                        clrtext      000000
+__Lcomram                         comram       000000
+__Lconfig                         config       300000
+__Lconst                          const        000000
+__LcstackBANK0                    cstackBANK0  000000
+__LcstackCOMRAM                   cstackCOMRAM 000000
+__Ldata                           data         000000
+__Leeprom_data                    eeprom_data  000000
+__Lfarbss                         farbss       000000
+__Lfardata                        fardata      000000
+__Libigdata                       ibigdata     000000
+__Lidata                          idata        000000
+__Lidloc                          idloc        200000
+__Lifardata                       ifardata     000000
+__Linit                           init         000094
+__Lintcode                        intcode      000008
+__Lintcode_body                   intcode_body 000000
+__Lintcodelo                      intcodelo    000094
+__Lintentry                       intentry     000000
+__Lintret                         intret       000000
+__Lintsave_regs                   intsave_regs 000000
+__Lirdata                         irdata       000000
+__Lmediumconst                    mediumconst  000000
+__LnvFARRAM                       nvFARRAM     000000
+__Lnvbit                          nvbit        000000
+__Lnvrram                         nvrram       000000
+__Lparam                          rparam       000000
+__Lpowerup                        powerup      000094
+__Lram                            ram          000000
+__Lramtop                         ramtop       000300
+__Lrbit                           rbit         000000
+__Lrbss                           rbss         000000
+__Lrdata                          rdata        000000
+__Lreset_vec                      reset_vec    000000
+__Lrparam                         rparam       000000
+__Lsfr                            sfr          000000
+__Lsmallconst                     smallconst   000300
+__Lspace_0                        (abs)        000000
+__Lspace_1                        (abs)        000000
+__Lspace_2                        (abs)        000000
+__Lstack                          stack        000000
+__Lstruct                         struct       000000
+__Ltemp                           temp         00003D
+__Ltext                           text         000000
+__Ltext0                          text0        000000
+__Ltext1                          text1        000000
+__Ltext10                         text10       000000
+__Ltext11                         text11       000000
+__Ltext12                         text12       000000
+__Ltext13                         text13       000000
+__Ltext14                         text14       000000
+__Ltext15                         text15       000000
+__Ltext16                         text16       000000
+__Ltext17                         text17       000000
+__Ltext18                         text18       000000
+__Ltext19                         text19       000000
+__Ltext2                          text2        000000
+__Ltext20                         text20       000000
+__Ltext21                         text21       000000
+__Ltext22                         text22       000000
+__Ltext23                         text23       000000
+__Ltext24                         text24       000000
+__Ltext25                         text25       000000
+__Ltext26                         text26       000000
+__Ltext27                         text27       000000
+__Ltext29                         text29       000000
+__Ltext3                          text3        000000
+__Ltext30                         text30       000000
+__Ltext31                         text31       000000
+__Ltext32                         text32       000000
+__Ltext33                         text33       000000
+__Ltext34                         text34       000000
+__Ltext35                         text35       000000
+__Ltext36                         text36       000000
+__Ltext4                          text4        000000
+__Ltext5                          text5        000000
+__Ltext6                          text6        000000
+__Ltext7                          text7        000000
+__Ltext8                          text8        000000
+__Ltext9                          text9        000000
+__S0                              (abs)        30000E
+__S1                              (abs)        0000FD
+__S2                              (abs)        000000
+___awdiv                          text15       000E0E
+___awdiv@counter                  cstackBANK0  0000CB
+___awdiv@dividend                 cstackBANK0  0000C7
+___awdiv@divisor                  cstackBANK0  0000C9
+___awdiv@quotient                 cstackBANK0  0000CD
+___awdiv@sign                     cstackBANK0  0000CC
+___inthi_sp                       stack        000000
+___intlo_sp                       stack        000000
+___lwdiv                          text3        001042
+___lwdiv@counter                  cstackCOMRAM 000029
+___lwdiv@dividend                 cstackCOMRAM 000023
+___lwdiv@divisor                  cstackCOMRAM 000025
+___lwdiv@quotient                 cstackCOMRAM 000027
+___lwmod                          text2        001172
+___lwmod@counter                  cstackCOMRAM 00002A
+___lwmod@dividend                 cstackBANK0  0000C7
+___lwmod@divisor                  cstackBANK0  0000C9
+___param_bank                     (abs)        000000
+___rparam_used                    (abs)        000001
+___sp                             stack        000000
+___wmul                           text14       001374
+___wmul@multiplicand              cstackCOMRAM 000025
+___wmul@multiplier                cstackCOMRAM 000023
+___wmul@product                   cstackCOMRAM 000027
+__accesstop                       (abs)        000060
+__activetblptr                    (abs)        000002
+__end_of_E_TOG                    text23       001464
+__end_of_FindIR                   text27       001128
+__end_of_IR_Init                  text26       001456
+__end_of_Init                     text25       0013E2
+__end_of_InterruptHandlerHigh     intcode      000094
+__end_of_InterruptINIT            text24       00147C
+__end_of_LCD_Init                 text20       000E0E
+__end_of_LCD_String               text19       001228
+__end_of_LCDout                   text22       0010DE
+__end_of_Motor_Init               text17       001042
+__end_of_SendLCD                  text21       001326
+__end_of_SetLine                  text16       001256
+__end_of_TrackIR                  text5        00068E
+__end_of___awdiv                  text15       000E94
+__end_of___lwdiv                  text3        001094
+__end_of___lwmod                  text2        0011B6
+__end_of___wmul                   text14       00139A
+__end_of__initialization          cinit        001366
+__end_of_back                     text4        001280
+__end_of_dpowers                  smallconst   00030B
+__end_of_forward                  text12       0012FE
+__end_of_fwdCount                 text11       00143C
+__end_of_getCharSerial            text36       001484
+__end_of_initPWM                  text18       0011F8
+__end_of_leftCount                text10       00141E
+__end_of_main                     text0        0008F2
+__end_of_rightCount               text9        001400
+__end_of_setMotorPWM              text13       000A84
+__end_of_sprintf                  text1        000D58
+__end_of_stop                     text8        000F82
+__end_of_turnLeft                 text7        0012D4
+__end_of_turnRight                text6        0012AA
+__end_ofi2_E_TOG                  text35       001472
+__end_ofi2_LCDout                 text34       001172
+__end_ofi2_SendLCD                text33       00134E
+__end_ofi2___awdiv                text32       000F18
+__end_ofi2___wmul                 text31       0013C0
+__end_ofi2_setMotorPWM            text30       000C06
+__end_ofi2_stop                   text29       000FEC
+__initialization                  cinit        00134E
+__mediumconst                     mediumconst  000000
+__pbssBANK0                       bssBANK0     000060
+__pbssCOMRAM                      bssCOMRAM    00002B
+__pcinit                          cinit        00134E
+__pcstackBANK0                    cstackBANK0  0000C7
+__pcstackCOMRAM                   cstackCOMRAM 000001
+__pintcode                        intcode      000008
+__psmallconst                     smallconst   000300
+__ptext0                          text0        00068E
+__ptext1                          text1        000C06
+__ptext10                         text10       001400
+__ptext11                         text11       00141E
+__ptext12                         text12       0012D4
+__ptext13                         text13       0008F2
+__ptext14                         text14       001374
+__ptext15                         text15       000E0E
+__ptext16                         text16       001228
+__ptext17                         text17       000FEC
+__ptext18                         text18       0011B6
+__ptext19                         text19       0011F8
+__ptext2                          text2        001172
+__ptext20                         text20       000D58
+__ptext21                         text21       0012FE
+__ptext22                         text22       001094
+__ptext23                         text23       001456
+__ptext24                         text24       001472
+__ptext25                         text25       0013C0
+__ptext26                         text26       00143C
+__ptext27                         text27       0010DE
+__ptext29                         text29       000F82
+__ptext3                          text3        001042
+__ptext30                         text30       000A84
+__ptext31                         text31       00139A
+__ptext32                         text32       000E94
+__ptext33                         text33       001326
+__ptext34                         text34       001128
+__ptext35                         text35       001464
+__ptext36                         text36       00147C
+__ptext4                          text4        001256
+__ptext5                          text5        000338
+__ptext6                          text6        001280
+__ptext7                          text7        0012AA
+__ptext8                          text8        000F18
+__ptext9                          text9        0013E2
+__ramtop                          ramtop       000300
+__size_of_E_TOG                   (abs)        000000
+__size_of_FindIR                  (abs)        000000
+__size_of_IR_Init                 (abs)        000000
+__size_of_Init                    (abs)        000000
+__size_of_InterruptHandlerHigh    (abs)        000000
+__size_of_InterruptINIT           (abs)        000000
+__size_of_LCD_Init                (abs)        000000
+__size_of_LCD_String              (abs)        000000
+__size_of_LCDout                  (abs)        000000
+__size_of_Motor_Init              (abs)        000000
+__size_of_SendLCD                 (abs)        000000
+__size_of_SetLine                 (abs)        000000
+__size_of_TrackIR                 (abs)        000000
+__size_of___awdiv                 (abs)        000000
+__size_of___lwdiv                 (abs)        000000
+__size_of___lwmod                 (abs)        000000
+__size_of___wmul                  (abs)        000000
+__size_of_back                    (abs)        000000
+__size_of_forward                 (abs)        000000
+__size_of_fwdCount                (abs)        000000
+__size_of_getCharSerial           (abs)        000000
+__size_of_initPWM                 (abs)        000000
+__size_of_leftCount               (abs)        000000
+__size_of_main                    (abs)        000000
+__size_of_rightCount              (abs)        000000
+__size_of_setMotorPWM             (abs)        000000
+__size_of_sprintf                 (abs)        000000
+__size_of_stop                    (abs)        000000
+__size_of_turnLeft                (abs)        000000
+__size_of_turnRight               (abs)        000000
+__size_ofi2_E_TOG                 (abs)        000000
+__size_ofi2_LCDout                (abs)        000000
+__size_ofi2_SendLCD               (abs)        000000
+__size_ofi2___awdiv               (abs)        000000
+__size_ofi2___wmul                (abs)        000000
+__size_ofi2_setMotorPWM           (abs)        000000
+__size_ofi2_stop                  (abs)        000000
+__smallconst                      smallconst   000300
+_arrayCount                       bssBANK0     000060
+_back                             text4        001256
+_counter                          bssBANK0     0000C4
+_dpowers                          smallconst   000301
+_forward                          text12       0012D4
+_fwdCount                         text11       00141E
+_getCharSerial                    text36       00147C
+_initPWM                          text18       0011B6
+_leftCount                        text10       001400
+_main                             text0        00068E
+_motorL                           bssCOMRAM    000034
+_motorR                           bssCOMRAM    00002B
+_read                             bssBANK0     0000C6
+_rightCount                       text9        0013E2
+_setMotorPWM                      text13       0008F2
+_sprintf                          text1        000C06
+_stop                             text8        000F18
+_turnLeft                         text7        0012AA
+_turnRight                        text6        001280
+back@m_L                          cstackBANK0  0000D4
+back@m_R                          cstackBANK0  0000D6
+btemp                             temp         00003D
+end_of_initialization             cinit        001366
+forward@m_L                       cstackBANK0  0000D4
+forward@m_R                       cstackBANK0  0000D6
+i2LCDout@number                   cstackCOMRAM 000004
+i2SendLCD@Byte                    cstackCOMRAM 000006
+i2SendLCD@type                    cstackCOMRAM 000005
+i2_E_TOG                          text35       001464
+i2_LCDout                         text34       001128
+i2_SendLCD                        text33       001326
+i2___awdiv                        text32       000E94
+i2___awdiv@counter                cstackCOMRAM 00000B
+i2___awdiv@dividend               cstackCOMRAM 000007
+i2___awdiv@divisor                cstackCOMRAM 000009
+i2___awdiv@quotient               cstackCOMRAM 00000D
+i2___awdiv@sign                   cstackCOMRAM 00000C
+i2___wmul                         text31       00139A
+i2___wmul@multiplicand            cstackCOMRAM 000003
+i2___wmul@multiplier              cstackCOMRAM 000001
+i2___wmul@product                 cstackCOMRAM 000005
+i2_setMotorPWM                    text30       000A84
+i2_stop                           text29       000F82
+i2setMotorPWM@PWMduty             cstackCOMRAM 000014
+i2setMotorPWM@m                   cstackCOMRAM 00000F
+i2stop@m_L                        cstackCOMRAM 000016
+i2stop@m_R                        cstackCOMRAM 000018
+initPWM@period                    cstackCOMRAM 000023
+int$flags                         temp         00003D
+intlevel0                         text         000000
+intlevel1                         text         000000
+intlevel2                         text         000000
+intlevel3                         text         000000
+main@LeftIR                       cstackBANK0  0000FA
+main@RightIR                      cstackBANK0  0000F8
+main@buf                          cstackBANK0  0000E7
+main@fin                          cstackBANK0  0000F7
+main@i                            cstackBANK0  0000FC
+setMotorPWM@PWMduty               cstackBANK0  0000D2
+setMotorPWM@m                     cstackCOMRAM 000029
+sprintf@ap                        cstackBANK0  0000D6
+sprintf@c                         cstackBANK0  0000DB
+sprintf@f                         cstackBANK0  0000CD
+sprintf@flag                      cstackBANK0  0000D5
+sprintf@prec                      cstackBANK0  0000DA
+sprintf@sp                        cstackBANK0  0000CB
+sprintf@val                       cstackBANK0  0000D8
+stackhi                           (abs)        0002FF
+stacklo                           (abs)        0000FD
+start                             init         000094
+start_initialization              cinit        00134E
+stop@m_L                          cstackBANK0  0000D4
+stop@m_R                          cstackBANK0  0000D6
+ttemp5                            temp         00003E
+ttemp6                            temp         000041
+ttemp7                            temp         000045
+turnLeft@m_L                      cstackBANK0  0000D4
+turnLeft@m_R                      cstackBANK0  0000D6
+turnRight@m_L                     cstackBANK0  0000D4
+turnRight@m_R                     cstackBANK0  0000D6
+wtemp8                            temp         00003E
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 212 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  buf            16   32[BANK0 ] unsigned char [16]
+  LeftIR          2   51[BANK0 ] unsigned int 
+  RightIR         2   49[BANK0 ] unsigned int 
+  i               1   53[BANK0 ] unsigned char 
+  fin             1   48[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0      22       0       0
+      Temps:          0       4       0       0
+      Totals:         0      26       0       0
+Total ram usage:       26 bytes
+ Hardware stack levels required when called:    8
+ This function calls:
+		_FindIR
+		_IR_Init
+		_Init
+		_InterruptINIT
+		_LCD_Init
+		_LCD_String
+		_Motor_Init
+		_SendLCD
+		_SetLine
+		_TrackIR
+		___lwdiv
+		_back
+		_sprintf
+		_stop
+		_turnLeft
+		_turnRight
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _sprintf *****************
+ Defined at:
+		line 500 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\doprnt.c"
+ Parameters:    Size  Location     Type
+  sp              2    4[BANK0 ] PTR unsigned char 
+		 -> main@buf(16), IRScreen2@buf(16), IRScreen@buf(16), 
+  f               3    6[BANK0 ] PTR const unsigned char 
+		 -> STR_4(19), STR_3(12), ROM(8191), STR_2(6), 
+		 -> STR_1(6), 
+ Auto vars:     Size  Location     Type
+  tmpval          4    0        struct .
+  cp              3    0        PTR const unsigned char 
+  val             2   17[BANK0 ] unsigned int 
+  ap              2   15[BANK0 ] PTR void [1]
+		 -> ?_sprintf(2), 
+  len             2    0        unsigned int 
+  c               1   20[BANK0 ] unsigned char 
+  prec            1   19[BANK0 ] char 
+  flag            1   14[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    4[BANK0 ] int 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       7       0       0
+      Locals:         0       7       0       0
+      Temps:          0       3       0       0
+      Totals:         0      17       0       0
+Total ram usage:       17 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___lwdiv
+		___lwmod
+ This function is called by:
+		_main
+		_IRScreen
+		_IRScreen2
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwmod *****************
+ Defined at:
+		line 7 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwmod.c"
+ Parameters:    Size  Location     Type
+  dividend        2    0[BANK0 ] unsigned int 
+  divisor         2    2[BANK0 ] unsigned int 
+ Auto vars:     Size  Location     Type
+  counter         1   41[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         1       0       0       0
+      Temps:          0       0       0       0
+      Totals:         1       4       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_sprintf
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwdiv *****************
+ Defined at:
+		line 7 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwdiv.c"
+ Parameters:    Size  Location     Type
+  dividend        2   34[COMRAM] unsigned int 
+  divisor         2   36[COMRAM] unsigned int 
+ Auto vars:     Size  Location     Type
+  quotient        2   38[COMRAM] unsigned int 
+  counter         1   40[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  2   34[COMRAM] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         4       0       0       0
+      Locals:         3       0       0       0
+      Temps:          0       0       0       0
+      Totals:         7       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_sprintf
+ This function uses a non-reentrant model
+
+
+ *************** function _back *****************
+ Defined at:
+		line 110 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m_L             2   13[BANK0 ] PTR struct DC_motor
+		 -> motorL(9), 
+  m_R             2   15[BANK0 ] PTR struct DC_motor
+		 -> motorR(9), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_setMotorPWM
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _TrackIR *****************
+ Defined at:
+		line 81 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+  LeftIR          2   19[BANK0 ] int 
+  RightIR         2   21[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  limit           2   26[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       2       0       0
+      Temps:          0       3       0       0
+      Totals:         0       9       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_forward
+		_fwdCount
+		_leftCount
+		_rightCount
+		_stop
+		_turnLeft
+		_turnRight
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _turnRight *****************
+ Defined at:
+		line 90 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m_L             2   13[BANK0 ] PTR struct DC_motor
+		 -> motorL(9), 
+  m_R             2   15[BANK0 ] PTR struct DC_motor
+		 -> motorR(9), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_setMotorPWM
+ This function is called by:
+		_TrackIR
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _turnLeft *****************
+ Defined at:
+		line 80 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m_L             2   13[BANK0 ] PTR struct DC_motor
+		 -> motorL(9), 
+  m_R             2   15[BANK0 ] PTR struct DC_motor
+		 -> motorR(9), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_setMotorPWM
+ This function is called by:
+		_TrackIR
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _stop *****************
+ Defined at:
+		line 64 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m_L             2   13[BANK0 ] PTR struct DC_motor
+		 -> motorL(9), 
+  m_R             2   15[BANK0 ] PTR struct DC_motor
+		 -> motorR(9), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       0       0       0
+      Temps:          0       2       0       0
+      Totals:         0       6       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_setMotorPWM
+ This function is called by:
+		_TrackIR
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _rightCount *****************
+ Defined at:
+		line 76 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_TrackIR
+ This function uses a non-reentrant model
+
+
+ *************** function _leftCount *****************
+ Defined at:
+		line 71 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_TrackIR
+ This function uses a non-reentrant model
+
+
+ *************** function _fwdCount *****************
+ Defined at:
+		line 66 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_TrackIR
+ This function uses a non-reentrant model
+
+
+ *************** function _forward *****************
+ Defined at:
+		line 100 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m_L             2   13[BANK0 ] PTR struct DC_motor
+		 -> motorL(9), 
+  m_R             2   15[BANK0 ] PTR struct DC_motor
+		 -> motorR(9), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_setMotorPWM
+ This function is called by:
+		_TrackIR
+ This function uses a non-reentrant model
+
+
+ *************** function _setMotorPWM *****************
+ Defined at:
+		line 32 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m               2   40[COMRAM] PTR struct DC_motor
+		 -> motorR(9), motorL(9), 
+ Auto vars:     Size  Location     Type
+  PWMduty         2   11[BANK0 ] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         2       0       0       0
+      Locals:         0       2       0       0
+      Temps:          0       3       0       0
+      Totals:         2       5       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		___awdiv
+		___wmul
+ This function is called by:
+		_stop
+		_turnLeft
+		_turnRight
+		_forward
+		_back
+		_setMotorFullSpeed
+ This function uses a non-reentrant model
+
+
+ *************** function ___wmul *****************
+ Defined at:
+		line 15 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c"
+ Parameters:    Size  Location     Type
+  multiplier      2   34[COMRAM] unsigned int 
+  multiplicand    2   36[COMRAM] unsigned int 
+ Auto vars:     Size  Location     Type
+  product         2   38[COMRAM] unsigned int 
+ Return value:  Size  Location     Type
+                  2   34[COMRAM] unsigned int 
+ Registers used:
+		wreg, status,2, status,0, prodl, prodh
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         4       0       0       0
+      Locals:         2       0       0       0
+      Temps:          0       0       0       0
+      Totals:         6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_setMotorPWM
+		i2_setMotorPWM
+ This function uses a non-reentrant model
+
+
+ *************** function ___awdiv *****************
+ Defined at:
+		line 7 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  dividend        2    0[BANK0 ] int 
+  divisor         2    2[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  quotient        2    6[BANK0 ] int 
+  sign            1    5[BANK0 ] unsigned char 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       4       0       0
+      Locals:         0       4       0       0
+      Temps:          0       0       0       0
+      Totals:         0       8       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_setMotorPWM
+		i2_setMotorPWM
+ This function uses a non-reentrant model
+
+
+ *************** function _SetLine *****************
+ Defined at:
+		line 99 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+  line            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  line            1   40[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         1       0       0       0
+      Temps:          0       0       0       0
+      Totals:         1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_SendLCD
+ This function is called by:
+		_main
+		_IRScreen
+ This function uses a non-reentrant model
+
+
+ *************** function _Motor_Init *****************
+ Defined at:
+		line 44 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  PWMcycle        2   36[COMRAM] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         2       0       0       0
+      Temps:          0       0       0       0
+      Totals:         2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_initPWM
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initPWM *****************
+ Defined at:
+		line 3 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  period          2   34[COMRAM] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         2       0       0       0
+      Temps:          0       0       0       0
+      Totals:         2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_Motor_Init
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD_String *****************
+ Defined at:
+		line 112 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+  string          2   40[COMRAM] PTR unsigned char 
+		 -> main@buf(16), IRScreen2@buf(16), IRScreen@buf(16), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         2       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_SendLCD
+ This function is called by:
+		_main
+		_IRScreen
+		_IRScreen2
+ This function uses a non-reentrant model
+
+
+ *************** function _LCD_Init *****************
+ Defined at:
+		line 56 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          1       0       0       0
+      Totals:         1       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    7
+ This function calls:
+		_LCDout
+		_SendLCD
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _SendLCD *****************
+ Defined at:
+		line 43 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+  Byte            1    wreg     unsigned char 
+  type            1   38[COMRAM] unsigned char 
+ Auto vars:     Size  Location     Type
+  Byte            1   39[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         1       0       0       0
+      Locals:         1       0       0       0
+      Temps:          0       0       0       0
+      Totals:         2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_LCDout
+ This function is called by:
+		_LCD_Init
+		_SetLine
+		_LCD_String
+		_main
+		_IRScreen
+		_IRScreen2
+ This function uses a non-reentrant model
+
+
+ *************** function _LCDout *****************
+ Defined at:
+		line 30 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+  number          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  number          1   37[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         1       0       0       0
+      Temps:          3       0       0       0
+      Totals:         4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_E_TOG
+ This function is called by:
+		_SendLCD
+		_LCD_Init
+ This function uses a non-reentrant model
+
+
+ *************** function _E_TOG *****************
+ Defined at:
+		line 24 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_LCDout
+ This function uses a non-reentrant model
+
+
+ *************** function _InterruptINIT *****************
+ Defined at:
+		line 205 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Init *****************
+ Defined at:
+		line 161 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _IR_Init *****************
+ Defined at:
+		line 11 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _FindIR *****************
+ Defined at:
+		line 20 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+  L_IR            2   34[COMRAM] PTR unsigned int 
+		 -> main@LeftIR(2), 
+  R_IR            2   36[COMRAM] PTR unsigned int 
+		 -> main@RightIR(2), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         4       0       0       0
+      Locals:         0       0       0       0
+      Temps:          2       0       0       0
+      Totals:         6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _InterruptHandlerHigh *****************
+ Defined at:
+		line 181 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  read_counter    2   31[COMRAM] int 
+  readIn          1   33[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         3       0       0       0
+      Temps:          4       0       0       0
+      Totals:         7       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_getCharSerial
+		i2_SendLCD
+		i2_stop
+ This function is called by:
+		Interrupt level 2
+ This function uses a non-reentrant model
+
+
+ *************** function i2_stop *****************
+ Defined at:
+		line 64 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m_L             2   21[COMRAM] PTR struct DC_motor
+		 -> motorL(9), 
+  m_R             2   23[COMRAM] PTR struct DC_motor
+		 -> motorR(9), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         4       0       0       0
+      Locals:         0       0       0       0
+      Temps:          2       0       0       0
+      Totals:         6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		i2_setMotorPWM
+ This function is called by:
+		_InterruptHandlerHigh
+ This function uses a non-reentrant model
+
+
+ *************** function i2_setMotorPWM *****************
+ Defined at:
+		line 32 in file "MotorControl.c"
+ Parameters:    Size  Location     Type
+  m               2   14[COMRAM] PTR struct DC_motor
+		 -> motorR(9), motorL(9), 
+ Auto vars:     Size  Location     Type
+  setMotorPWM     2   19[COMRAM] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, prodl, prodh, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         2       0       0       0
+      Locals:         2       0       0       0
+      Temps:          3       0       0       0
+      Totals:         7       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		i2___awdiv
+		i2___wmul
+ This function is called by:
+		i2_stop
+ This function uses a non-reentrant model
+
+
+ *************** function i2___wmul *****************
+ Defined at:
+		line 15 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c"
+ Parameters:    Size  Location     Type
+  multiplier      2    0[COMRAM] unsigned int 
+  multiplicand    2    2[COMRAM] unsigned int 
+ Auto vars:     Size  Location     Type
+  __wmul          2    4[COMRAM] unsigned int 
+ Return value:  Size  Location     Type
+                  2    0[COMRAM] unsigned int 
+ Registers used:
+		wreg, status,2, status,0, prodl, prodh
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         4       0       0       0
+      Locals:         2       0       0       0
+      Temps:          0       0       0       0
+      Totals:         6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		i2_setMotorPWM
+ This function uses a non-reentrant model
+
+
+ *************** function i2___awdiv *****************
+ Defined at:
+		line 7 in file "C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  dividend        2    6[COMRAM] int 
+  divisor         2    8[COMRAM] int 
+ Auto vars:     Size  Location     Type
+  __awdiv         2   12[COMRAM] int 
+  __awdiv         1   11[COMRAM] unsigned char 
+  __awdiv         1   10[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  2    6[COMRAM] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         4       0       0       0
+      Locals:         4       0       0       0
+      Temps:          0       0       0       0
+      Totals:         8       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		i2_setMotorPWM
+ This function uses a non-reentrant model
+
+
+ *************** function i2_SendLCD *****************
+ Defined at:
+		line 43 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+  Byte            1    wreg     unsigned char 
+  type            1    4[COMRAM] unsigned char 
+ Auto vars:     Size  Location     Type
+  Byte            1    5[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         1       0       0       0
+      Locals:         1       0       0       0
+      Temps:          0       0       0       0
+      Totals:         2       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		i2_LCDout
+ This function is called by:
+		_InterruptHandlerHigh
+ This function uses a non-reentrant model
+
+
+ *************** function i2_LCDout *****************
+ Defined at:
+		line 30 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+  number          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  number          1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         1       0       0       0
+      Temps:          3       0       0       0
+      Totals:         4       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		i2_E_TOG
+ This function is called by:
+		i2_SendLCD
+ This function uses a non-reentrant model
+
+
+ *************** function i2_E_TOG *****************
+ Defined at:
+		line 24 in file "LDCScreen.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		i2_LCDout
+ This function uses a non-reentrant model
+
+
+ *************** function _getCharSerial *****************
+ Defined at:
+		line 175 in file "newFILE.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2
+      Params:         0       0       0       0
+      Locals:         0       0       0       0
+      Temps:          0       0       0       0
+      Totals:         0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_InterruptHandlerHigh
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwmod.c
+		___lwmod       		CODE           	1172	0000	69
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwmod.c estimated size: 69
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\doprnt.c
+		_sprintf       		CODE           	0C06	0000	339
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\doprnt.c estimated size: 339
+
+newFILE.c
+		_TrackIR       		CODE           	0338	0000	855
+		_FindIR        		CODE           	10DE	0000	75
+		_main          		CODE           	068E	0000	613
+		_rightCount    		CODE           	13E2	0000	31
+		_InterruptINIT 		CODE           	1472	0000	11
+		_Motor_Init    		CODE           	0FEC	0000	87
+		_Init          		CODE           	13C0	0000	35
+		_InterruptHandlerHigh		CODE           	0008	0000	141
+		_fwdCount      		CODE           	141E	0000	31
+		_IR_Init       		CODE           	143C	0000	27
+		_getCharSerial 		CODE           	147C	0000	9
+		_leftCount     		CODE           	1400	0000	31
+
+newFILE.c estimated size: 1946
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+		___wmul        		CODE           	1374	0000	39
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c estimated size: 39
+
+MotorControl.c
+		_turnLeft      		CODE           	12AA	0000	43
+		_stop          		CODE           	0F18	0000	107
+		_turnRight     		CODE           	1280	0000	43
+		_forward       		CODE           	12D4	0000	43
+		_setMotorPWM   		CODE           	08F2	0000	403
+		_back          		CODE           	1256	0000	43
+		_initPWM       		CODE           	11B6	0000	67
+
+MotorControl.c estimated size: 749
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwdiv.c
+		___lwdiv       		CODE           	1042	0000	83
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lwdiv.c estimated size: 83
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+		___awdiv       		CODE           	0E0E	0000	135
+
+C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c estimated size: 135
+
+shared
+		i2_LCDout      		CODE           	1128	0000	75
+		i2_stop        		CODE           	0F82	0000	107
+		i2_setMotorPWM 		CODE           	0A84	0000	387
+		_dpowers       		SMALLCONST     	0301	0000	11
+		i2_E_TOG       		CODE           	1464	0000	15
+		i2___awdiv     		CODE           	0E94	0000	133
+		i2___wmul      		CODE           	139A	0000	39
+		__initialization		CODE           	134E	0000	25
+		i2_SendLCD     		CODE           	1326	0000	41
+
+shared estimated size: 833
+
+LDCScreen.c
+		_SetLine       		CODE           	1228	0000	47
+		_LCD_String    		CODE           	11F8	0000	49
+		_LCD_Init      		CODE           	0D58	0000	183
+		_SendLCD       		CODE           	12FE	0000	41
+		_E_TOG         		CODE           	1456	0000	15
+		_LCDout        		CODE           	1094	0000	75
+
+LDCScreen.c estimated size: 410
+
